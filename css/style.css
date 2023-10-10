@@ -1,0 +1,14 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+margin: 0 auto;
+max width: 1200px;
+width: 100%;
+}
+
+header{
+    background-color: rgb(18, 123, 228);
+    text-decoration: none;
+    }
