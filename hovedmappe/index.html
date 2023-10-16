@@ -1,54 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta charset="UTF-8">
     <base href="../" >
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" type="text/css">
+    <link href="css/font/css/fontawesome.css" rel="stylesheet">
+    <link href="css/font/css/brands.css" rel="stylesheet">
+    <link href="css/font/css/solid.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css" type="text/css">
     <title>Hoka</title>
-     
 </head>
 
 <body>
+    <div id="grid-container">
     <header>
-        <span>
-            <a href="#" id="logo" >Hoka</a>
-        </span>
-        <nav>
-            <ul>
-                <li><a href="katalog.html">Men</a></li>
-                <li><a href="#">Women</a></li>
-                <li><a href="#">Kids</a></li>
-             </ul> 
+        
+        <nav> 
+            <img src="img/hoka.png" alt="Png bildet av hoka logoen">
+         <div>  
+            <i class="fa-solid fa-bars"></i>
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <i class="fa-solid fa-user"></i>
+            <i class="fa-solid fa-cart-shopping"></i>
+        </div>
         </nav>
+           
+        
     </header>
 
     <main>
-    <h1>TIME TO FLY</h1>
-    <img src="img/m-carbon-benefits.jpg" alt="En som løper med hoka sko">
-    <h2>Featured</h2>
-
+        <nav>
+            <ul class="navbar">
+                <li><a href="#">New</a></li>
+                <li><a href="#katalog.html">Men</a></li>
+                <li><a href="#">Women</a></li>
+                <li><a href="#">Kids</a></li>
+            
+            </ul>
+        </nav>
     </main>
 
     <footer>
+        <h1>TIME TO FLY</h1>
+    <img src="img/m-carbon-benefits.jpg" alt="En som løper med hoka sko">
+    <a href="#" class="black-btn">Shop</a>
+
         <section>
+            <h2>Featured</h2>
             <article>
-                <img src="img/hoka-website-hp-01-09-04.jpg">
+                <img src="img/hoka-website-hp-01-09-04.jpg" alt="En dame som trener">
                 <h3>Gym & fitness</h3>
              </article>
 
             <article>
-                <img src="img/hoka-website-hp-01-09-01.jpg">
+                <img src="img/hoka-website-hp-01-09-01.jpg" alt="En mann som løper">
                 <h3>Road running</h3>
             </article>
 
             <article>
-                <img src="img/hoka-website-hp-01-09-02.jpg">
+                <img src="img/hoka-website-hp-01-09-02.jpg" alt="En dame som løper">
                 <h3>Hiking & walking</h3>
             </article>
         </section>
 </footer>
+<script>
+
+    let x = document.querySelector(".navbar")
+
+    document.getElementById("ham").addEventListener("click", ()=>{
+        console.log("Det klikka")
+        if (x.className === "navbar") {
+            x.className += " responsive";
+        } else{
+            x.className = "navbar"
+        }
+
+        })
+
+</script>
 </body>
 
 </html>
