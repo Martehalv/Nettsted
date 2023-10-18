@@ -24,6 +24,8 @@ header nav div{
     justify-content: space-between;
     position: relative;
     color:white;
+    width: 100%;
+    
 }
 
 header img{
@@ -55,17 +57,10 @@ main nav div{
     gap: 0.5rem;
 }
 
-
-
-
-
 footer{
-    display: inline-block;
-    text-align: center;
+    display: grid;
     
-
 }
-
 
 footer h1{
     display:grid;
@@ -77,13 +72,27 @@ footer h2{
     text-align: left;
 }
 
-.grid-container {
-    display: grid;
-    row-gap: 40px;
-    grid-template-columns: auto auto;
-    background-color: #2196F3;
-    padding: 10px;
-    column-gap: 10px;
+
+
+footer section img{
+    float: center;
+    width: 100%;
+}
+
+footer section{
+    display: flex;
+    float: inline;
+    width: 33.33%;
+    padding: 5px;
+    text-align: center;
+  }
+
+  footer section article{
+    display: table;
+    width: 100%;
+    flex: 33.33%;
+    padding: 5px;
+    
   }
 
 .container {
@@ -95,12 +104,13 @@ footer h2{
     max-width: 1400px;
     min-width: 200px;
     height: auto;
+    width: 100%;
   }
 
 .container .black-btn {
     position: absolute;
-    top: 80%;
-    left: 150%;
+    top: 70%;
+    left: 80%;
     background-color: #ffffff;
     color: rgb(22, 22, 22);
     font-size: 20px;
@@ -110,8 +120,26 @@ footer h2{
     border-radius: 5px;
   }
 
-  @media only screen and (min-width:600px){
 
+  .grid-container {
+    display: flex;
+    float: inline;
+    width: 100%;
+    padding: 1rem;
+    
+  }
+
+  @media only screen and (min-width:600px){
+    footer section{
+        overflow: hidden;
+        max-width: 1260px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    footer article{
+        float: left;
+        margin: 10px;
+    }
   }
 
  
