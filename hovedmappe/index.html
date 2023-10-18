@@ -14,24 +14,22 @@
 
 <body>
     
-    <header>
-        
-        <nav> 
-            <img src="img/hoka.png" alt="Png bildet av hoka logoen">
-         <div id="menubar">  
+    <header>  
+        <img src="img/hoka.png" alt="Png bildet av hoka logoen">
+        <nav>
+            <div id="menubar">  
             <i class="fa-solid fa-bars"></i>
             <i class="fa-solid fa-magnifying-glass"></i>
          
             <i class="fa-solid fa-user"></i>
             <i class="fa-solid fa-cart-shopping"></i>
-        </div>
+            </div>
         </nav>
-           
     </header>
 
     <main>
         <nav>
-            <ul style="bar">
+            <ul class="bar">
                 <li><a href="#">New</a></li>
                 <li><a href="#katalog.html">Men</a></li>
                 <li><a href="#">Women</a></li>
@@ -66,21 +64,7 @@
         </div>
         </section>
 </footer>
-<script>
 
-    let x = document.querySelector(".navbar")
-
-    document.getElementById("ham").addEventListener("click", ()=>{
-        console.log("Det klikka")
-        if (x.className === "navbar") {
-            x.className += " responsive";
-        } else{
-            x.className = "navbar"
-        }
-
-        })
-
-</script>
 </body>
 
-</html> 
+</html>
