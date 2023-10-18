@@ -6,6 +6,8 @@ html {
     font-size: calc(1em + 1vw);
 }
 
+/*Css for index.html*/
+
 body{
     width: 100%;
     font-family: Arial, Helvetica, sans-serif;
@@ -37,7 +39,6 @@ header{
     width: 100%;
     margin: 0;
     padding: 1rem;
-    
 }
 
 header img{
@@ -48,7 +49,6 @@ header img{
 main nav{
     display: flex;
     background-color:rgb(196, 201, 205);
-     
 }
 
 .bar{
@@ -61,8 +61,6 @@ main nav{
     padding: 0.5rem;
 }
 
-/*Ikke endre noe over*/
-
 footer{
     display: inline block;
     justify-content: center;
@@ -70,13 +68,11 @@ footer{
     width: 100%;
     text-align: center;
     padding: 0.5rem;  
-    
 }
 
 footer h1{
     display: inline-block;
     width: 100%;
-    
 }
 
 footer h2{
@@ -96,7 +92,6 @@ footer section{
     width: 33.33%;
     margin: 0;
     text-align: center;
-    
 }
 
 .container {
@@ -130,7 +125,6 @@ footer section{
     place-items:initial;
     width: 100%;
     margin: 0 auto;
-    
   }
 
   .grid-container img{
@@ -138,7 +132,6 @@ footer section{
     width: 100%;
     max-width: 250px;
     min-width: 350px;
-    
   }
 
 
