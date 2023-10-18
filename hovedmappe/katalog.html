@@ -1,56 +1,74 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <base href="../" >
     <meta charset="UTF-8">
-    <title>Hoka</title>
-    <link rel="stylesheet" href="../css/style.css" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" type="text/css">
+    <link href="css/font/css/fontawesome.css" rel="stylesheet">
+    <link href="css/font/css/brands.css" rel="stylesheet">
+    <link href="css/font/css/solid.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <title>Katalogside</title>
 </head>
 
 <body>
-    <header>
+    <header>  
+        <img src="img/hoka.png" alt="Png bildet av hoka logoen">
+        <nav>
+            <div id="menubar">  
+            <i class="fa-solid fa-bars"></i>
+            <i class="fa-solid fa-magnifying-glass"></i>
+         
+            <i class="fa-solid fa-user"></i>
+            <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+        </nav>
+    </header>
+
+    <section class="historikk">
         <nav>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="#">Men</a></li>
-                <li><a href="#">Road running</a></li>
-                <li><a href="produktside.html">Ironman Mach X</a></li>
+                <li><a href="index.html">Home /</a></li>
+                <li><a href="#">Men /</a></li>
+                <li><a href="#">Road running </a></li> 
             </ul>
         </nav>
+    </section>
 
         <main>
-            <section>
+            <section class="Tema-tittel">
                 <h1>Men's road running shoes</h1>
             </section>
             <section>
                 <a href="#" class="knapper">Filter</a>
                 <a href="#" class="knapper">Sort by</a>
             </section>
-            <section>
+
+            <section class="Sko-artikkel">
                 <article>
-                    <!--Legg inn bilde-->
+                    <img src="img/1127895-CSAA_1.jpg" alt="Clifton 9 hoka sko">
                     <h4>Clifton 9</h4>
                     <h5>1 999 kr</h5>
                 </article>
                 <article>
-                    <!--Legg inn bilde-->
+                    <img src="img/1141470-BBLC_1.jpg" alt="Clifton 9 GORE-TEX hoka sko">
                     <h4>Clifton 9 GORE-TEX</h4>
                     <h5>2 399 kr</h5>
                 </article>
                 <article>
-                    <!--Legg inn bilde-->
+                    <img src="img/ironman-mach-x.jpg" alt="Ironman mach x sko hoka sko">
                     <h4>Ironman Mach X</h4>
                     <h5>2 600 kr</h5>
                 </article>
                 <article>
-                    <!--Legg inn bilde-->
+                    <img src="img/1141450-OMLG_1.jpg" alt="Mach x hoka sko">
                     <h4>Mach X</h4>
                     <h5>2 699 kr</h5>
                 </article>
             </section>
         </main>
-    </header>
+    
 </body>
 
 </html>
