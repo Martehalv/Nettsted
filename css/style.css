@@ -19,15 +19,14 @@ body{
     grid-template-columns: 1fr;
     grid-template-rows: repeat(4, auto);
     grid-template-areas: "topp" 
-                        "hovedomraade" 
-                        "sidebar" 
+                        "hovedomraade"  
                         "baann"; 
 }
 
 header{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     background-color: rgb(18, 123, 228);
 }
@@ -35,7 +34,7 @@ header{
 #menubar{
     display: flex;
     color:white;
-    gap: 20px;
+    gap: 30px;
     width: 100%;
     margin: 0;
     padding: 1rem;
@@ -141,6 +140,7 @@ footer section{
     text-align: center;
     justify-content: left;
     list-style: none;
+    font-size: 25px;
     gap: 20px;
     width: 100%;
     padding: 0.5rem;
@@ -161,6 +161,7 @@ footer section{
   #produkt-bilder{
     display: flex;
     place-items:initial;
+    justify-content: center;
     width: 100%;
     margin: 0 auto;
   }
@@ -169,12 +170,43 @@ footer section{
     width: 100%;
     margin: 0;
     padding: 0.5rem;
-    width: 100%;
-    max-width: 200px;
-    min-width: 300px;
   }
 
+  .størrelsesguide{
+    display: flex;
+    place-items: initial;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
 
+  .størrelse{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration-line: none;
+    gap: 40px;
+    
+    
+    color: black;
+}
+
+  .handlekurv{
+    display: inline;
+    align-items: center;
+    justify-content: center;
+    text-decoration-line: none;
+    background-color: #171717;
+    color: white;
+    font-size: 30px;
+    padding: 1rem;
+    width: 100%;
+  }
+
+  .handlekurv:hover{
+    background-color: rgb(212, 211, 211);
+    color:black
+  }
 
 
 
@@ -194,7 +226,7 @@ footer section{
 
 
   #produkt-bilder{
-    overflow: hidden;
+    
     /*Få vekk bilder på mobil*/
   }
 
