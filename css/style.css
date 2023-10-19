@@ -134,6 +134,49 @@ footer section{
     min-width: 350px;
   }
 
+  /*Css for produktside.html*/
+
+  .historikk{           /*Denne er også i katalog.html*/
+    display: flex;
+    text-align: center;
+    justify-content: left;
+    list-style: none;
+    gap: 20px;
+    width: 100%;
+    padding: 0.5rem;
+  }
+
+  #ironman-mach{
+    margin: 0;
+    padding: 1rem;
+
+  }
+
+  #ironman-mach img{
+    width: 100%;
+    margin: 0;
+    padding: 1rem;
+  }
+  
+  #produkt-bilder{
+    display: flex;
+    place-items:initial;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  #produkt-bilder img{
+    width: 100%;
+    margin: 0;
+    padding: 0.5rem;
+    width: 100%;
+    max-width: 200px;
+    min-width: 300px;
+  }
+
+
+
+
 
 
   @media only screen and (min-width:600px){
@@ -147,6 +190,12 @@ footer section{
         float: left;
         margin: 10px;
     }
+  }
+
+
+  #produkt-bilder{
+    overflow: hidden;
+    /*Få vekk bilder på mobil*/
   }
 
  
