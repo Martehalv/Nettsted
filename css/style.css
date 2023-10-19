@@ -27,17 +27,18 @@ header{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    width: 100%;
     align-items: center;
     background-color: rgb(18, 123, 228);
 }
 
 #menubar{
     display: flex;
-    color:white;
-    gap: 30px;
     width: 100%;
+    color:white;
+    gap: 40px;
     margin: 0;
-    padding: 1rem;
+    padding: 2rem;
 }
 
 header img{
@@ -61,7 +62,7 @@ main nav{
 }
 
 footer{
-    display: inline block;
+    display: grid;
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -177,18 +178,77 @@ footer section{
     place-items: initial;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    gap: 70px;
   }
 
   .størrelse{
     display: flex;
     justify-content: center;
     align-items: center;
-    text-decoration-line: none;
-    gap: 40px;
-    
-    
-    color: black;
+    margin: 0;
+    width: 100%;
+  }
+
+.størrelse-1 article{
+  
+  background-color: rgb(165, 165, 165);
+  color: rgb(255, 255, 255);
+  margin: 40px 40px;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.størrelse-1 article:hover{
+  background-color:rgb(46, 46, 46);
+ 
+}
+
+.størrelse-1{
+
+  
+  gap: 200px;
+  font-size: 25px;
+}
+
+.størrelse-2 article{
+  
+  background-color: rgb(165, 165, 165);
+  color: white;
+  margin: 40px 40px;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.størrelse-2 article:hover{
+  background-color:rgb(46, 46, 46);
+ 
+}
+
+.størrelse-2{
+ 
+  gap: 200px;
+  font-size: 25px;
+}
+
+.størrelse-3 article{
+ 
+  background-color: rgb(165, 165, 165);
+  color: white;
+  margin: 40px 40px;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.størrelse-3 article:hover{
+  background-color:rgb(46, 46, 46);
+ 
+}
+
+.størrelse-3{
+  
+  
+  gap: 200px;
+  font-size: 25px;
 }
 
   .handlekurv{
@@ -201,6 +261,8 @@ footer section{
     font-size: 30px;
     padding: 1rem;
     width: 100%;
+    margin: 0;
+    border-radius: 4px;
   }
 
   .handlekurv:hover{
