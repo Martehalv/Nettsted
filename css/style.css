@@ -141,10 +141,41 @@ footer section{
     text-align: center;
     justify-content: left;
     list-style: none;
+    text-decoration-line: none;
     font-size: 25px;
     gap: 20px;
     width: 100%;
     padding: 0.5rem;
+  }
+
+  .home{
+    text-decoration-line: none;
+    color: black;
+    font-weight: lighter;
+  }
+
+  .men{
+    text-decoration-line: none;
+    color: black;
+    font-weight: lighter;
+  }
+
+  .road-running{
+    text-decoration-line: none;
+    color: black;
+    font-weight: bold;
+  }
+
+  .road-running-1{
+    text-decoration-line: none;
+    color: black;
+    font-weight: lighter;
+  }
+
+  .ironman{
+    text-decoration-line: none;
+    color: black;
+    font-weight: bold;
   }
 
   #ironman-mach{
@@ -190,63 +221,55 @@ footer section{
   }
 
 .størrelse-1 article{
-  
   background-color: rgb(165, 165, 165);
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   margin: 40px 40px;
-  padding: 1rem;
+  padding: 0.5rem 1rem 0.5rem 1rem;
   border-radius: 8px;
 }
 
 .størrelse-1 article:hover{
   background-color:rgb(46, 46, 46);
- 
+  color: white;
 }
 
 .størrelse-1{
-
-  
   gap: 200px;
   font-size: 25px;
 }
 
 .størrelse-2 article{
-  
   background-color: rgb(165, 165, 165);
-  color: white;
+  color: rgb(0, 0, 0);
   margin: 40px 40px;
-  padding: 1rem;
+  padding: 0.5rem 1rem 0.5rem 1rem;
   border-radius: 8px;
 }
 
 .størrelse-2 article:hover{
   background-color:rgb(46, 46, 46);
- 
+  color: white;
 }
 
 .størrelse-2{
- 
   gap: 200px;
   font-size: 25px;
 }
 
 .størrelse-3 article{
- 
   background-color: rgb(165, 165, 165);
-  color: white;
+  color: rgb(0, 0, 0);
   margin: 40px 40px;
-  padding: 1rem;
+  padding: 0.5rem 1rem 0.5rem 1rem;
   border-radius: 8px;
 }
 
 .størrelse-3 article:hover{
   background-color:rgb(46, 46, 46);
- 
+  color: white;
 }
 
 .størrelse-3{
-  
-  
   gap: 200px;
   font-size: 25px;
 }
@@ -283,25 +306,61 @@ footer section{
     justify-content: right;
     align-items: right;
     gap: 30px;
+    width: 100%;
+    padding: 1rem;
   }
 
   .filter-knapp{
-    
     background-color: black;
     color: white;
-    padding: 0.5rem;
+    padding: 0.5rem 1rem 0.5rem 1rem;
     font-size: 20px;
     text-decoration-line: none;
+    border-radius: 8px;
+  }
+
+  .filter-knapp:hover{
+    background-color: #878686;
+    color:rgb(58, 58, 58);
   }
 
   .sort-knapp{
-   
     background-color: black;
     color: white;
-    padding: 0.5rem;
+    padding: 0.5rem 1rem 0.5rem 1rem;
     font-size: 20px;
     text-decoration-line: none;
+    border-radius: 8px;
   }
+
+  .sort-knapp:hover{
+    background-color: #878686;
+    color:rgb(58, 58, 58);
+  }
+
+  .sko-artikkel{
+    display: inline;
+    place-items: initial;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .sko-artikkel img{
+    margin: 0;
+    width: 100%;
+    max-width: 170px;
+    min-width: 270px;
+  }
+
+  footer h4{
+    font-size: 25px;
+  }
+
+  footer p{
+    font-size: 20px;
+    font-weight: bold;
+  }
+
 
 
   @media only screen and (min-width:600px){
@@ -315,13 +374,18 @@ footer section{
         float: left;
         margin: 10px;
     }
+
+    .sko-artikkel{
+      
+    }
+
   }
 
 
-  #produkt-bilder{
+  /*#produkt-bilder{
     
-    /*Få vekk bilder på mobil*/
-  }
+    /*Få vekk bilder på mobil
+  }*/
 
  
 
