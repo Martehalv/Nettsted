@@ -278,16 +278,29 @@ footer section{
     padding: 0.5rem;
   }
 
+  .knapper{
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    gap: 30px;
+  }
+
   .filter-knapp{
-    display: inline;
     
-    
-    
+    background-color: black;
+    color: white;
+    padding: 0.5rem;
+    font-size: 20px;
+    text-decoration-line: none;
   }
 
   .sort-knapp{
-    display: inline;
-    
+   
+    background-color: black;
+    color: white;
+    padding: 0.5rem;
+    font-size: 20px;
+    text-decoration-line: none;
   }
 
 
