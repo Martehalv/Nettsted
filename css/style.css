@@ -338,28 +338,44 @@ footer section{
     color:rgb(58, 58, 58);
   }
 
+
+  footer h4{
+    font-size: 20px;
+    width: 100%;
+  }
+
+  footer p{
+    font-size: 15px;
+    font-weight: bold;
+    width: 100%;
+  }
+
+
   .sko-artikkel{
-    display: inline;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+  }
+  
+  .sko-artikkel article{
+    display: grid;
+    justify-content: center;
     place-items: initial;
+    padding: 0.5rem;
     width: 100%;
     margin: 0 auto;
+    gap: 30px;
+    text-align: center;
   }
 
   .sko-artikkel img{
     margin: 0;
     width: 100%;
-    max-width: 170px;
-    min-width: 270px;
+    min-width: 150px;
+    max-width: 250px;
   }
 
-  footer h4{
-    font-size: 25px;
-  }
-
-  footer p{
-    font-size: 20px;
-    font-weight: bold;
-  }
+  
 
 
 
@@ -376,7 +392,7 @@ footer section{
     }
 
     .sko-artikkel{
-      
+      grid-template-columns: repeat(3, 1fr);
     }
 
   }
