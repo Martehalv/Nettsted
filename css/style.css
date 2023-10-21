@@ -244,6 +244,7 @@ footer section{
   margin: 40px 40px;
   padding: 0.5rem 1rem 0.5rem 1rem;
   border-radius: 8px;
+  
 }
 
 .størrelse-2 article:hover{
@@ -262,6 +263,7 @@ footer section{
   margin: 40px 40px;
   padding: 0.5rem 1rem 0.5rem 1rem;
   border-radius: 8px;
+  
 }
 
 .størrelse-3 article:hover{
@@ -338,7 +340,6 @@ footer section{
     color:rgb(58, 58, 58);
   }
 
-
   footer h4{
     font-size: 20px;
     width: 100%;
@@ -350,6 +351,22 @@ footer section{
     width: 100%;
   }
 
+  .filtersystem{
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+
+  .filtersystem article{
+    display: flex;
+    width: 240px;
+    justify-content: left;
+    align-items: baseline;
+    margin: 0;
+    gap: 90px;
+    padding: 0.5rem;
+    border-bottom: solid black;
+  }
 
   .sko-artikkel{
     display: grid;
@@ -358,13 +375,10 @@ footer section{
   }
   
   .sko-artikkel article{
-    display: grid;
-    justify-content: center;
+   justify-content: center;
     place-items: initial;
     padding: 0.5rem;
-    width: 100%;
     margin: 0 auto;
-    gap: 30px;
     text-align: center;
   }
 
@@ -377,31 +391,54 @@ footer section{
 
   
 
-
-
   @media only screen and (min-width:600px){
     footer section{
-        overflow: hidden;
-        max-width: 1260px;
-        width: 100%;
-        margin: 0 auto;
+      overflow: hidden;
+      max-width: 1260px;
+      width: 100%;
+      margin: 0 auto;
     }
     footer article{
-        float: left;
-        margin: 10px;
+      float: left;
+      margin: 10px;
     }
 
     .sko-artikkel{
       grid-template-columns: repeat(3, 1fr);
+      width: 100%;
     }
 
+    .filter-sko{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      column-gap: auto;
+      justify-content: center;
+      
+    }
+
+    .filtersystem article{
+      flex: left;
+      
+    }
+
+    .sko-artikkel{
+      flex: right
+    }
+  }
+
+  @media only screen and (max-width:600px){
+    .filtersystem{
+      display: none;
+    }
+
+    .sko-artikkel{
+      grid-template-columns: repeat(2, 1fr);
+      width: 100%;
+    }
   }
 
 
-  /*#produkt-bilder{
-    
-    /*Få vekk bilder på mobil
-  }*/
+ 
 
  
 
