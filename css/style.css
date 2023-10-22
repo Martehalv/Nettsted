@@ -1,231 +1,228 @@
 *{
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html {
-    font-size: calc(1em + 1vw);
+  font-size: calc(1em + 1vw);
 }
 
 /*Css for index.html*/
 
 body{
-    width: 100%;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
 }
 
-#grid-container {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(4, auto);
-    grid-template-areas: "topp" 
-                        "hovedomraade"  
-                        "baann"; 
-}
-
-header{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    width: 100%;
-    align-items: center;
-    background-color: rgb(18, 123, 228);
+header{  /*Header CSS for alle html filene*/
+  display: flex;   /*Nettside: W3schools, tittel: CSS Flex Container + CSS Flex Responsive. Brukt for hjelp til flexbox i css*/ 
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  background-color: rgb(18, 123, 228);
 }
 
 #menubar{
-    display: flex;
-    width: 100%;
-    color:white;
-    gap: 40px;
-    margin: 0;
-    padding: 2rem;
+  display: flex;
+  width: 100%;
+  color:white;
+  gap: 40px;
+  margin: 0;
+  padding: 2rem;
 }
 
 header img{
-    padding: 2rem;
-    width: 200px;
+  padding: 2rem;
+  width: 200px;
 }
 
 main nav{
-    display: flex;
-    background-color:rgb(196, 201, 205);
+  display: flex;
+  background-color:rgb(196, 201, 205);
 }
 
 .bar{
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    list-style: none;
-    gap: 35px;
-    width: 100%;
-    padding: 0.5rem;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  list-style: none;
+  gap: 35px;
+  width: 100%;
+  padding: 0.5rem;
 }
 
 footer{
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    text-align: center;
-    padding: 0.5rem;  
+  display: grid;  /*Har fått hjelp av OpenAi til å forstå grid bedre i css*/
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+  padding: 0.5rem;  
 }
 
 footer h1{
-    display: inline-block;
-    width: 100%;
+  display: inline-block;
+  width: 100%;
 }
 
 footer h2{
-    font-size: 30px;
-    text-align: left;
-    margin: 0.5rem;
+  font-size: 30px;
+  text-align: left;
+  margin: 0.5rem;
 }
 
 footer h3{
-    font-size: 20px;
-    text-align: center;
+  font-size: 20px;
+  text-align: center;
 }
 
 footer section{
-    display: flex;
-    float: inline;
-    width: 33.33%;
-    margin: 0;
-    text-align: center;
+  display: flex;
+  float: inline;
+  width: 33.33%;
+  margin: 0;
+  text-align: center;
 }
 
 .container {
-    place-items: center;
-    width: 100%;
-    max-width: 100%;
-    max-height: 100%;
+  place-items: center;   /*Nettside: W3schools, tittel: CSS place-items Porperty*/
+  width: 100%;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .container img {
-    margin: 0;
-    width: 100%;
-  }
+  margin: 0;
+  width: 100%;
+}
 
-.container .black-btn {
-    display: inline-block;
-    align-items: center;
-    background-color: #303030;
-    color: rgb(244, 242, 242);
-    text-decoration: none;
-    font-size: 20px;
-    padding: 20px 70px;  
-  }
+.container .black-btn {   /*Nettside: W3schools, tittel: CSS Buttons*/
+  display: inline-block;
+  align-items: center;
+  background-color: #303030;
+  color: rgb(244, 242, 242);
+  text-decoration: none;
+  font-size: 20px;
+  padding: 20px 70px;  
+}
 
-  .container .black-btn:hover{
-    color: black;
-    background-color: rgb(137, 137, 137);
-  }
+.container .black-btn:hover{
+  color: black;
+  background-color: rgb(137, 137, 137);
+}
 
-  .grid-container {
-    place-items:initial;
-    width: 100%;
-    margin: 0 auto;
-  }
+.grid-container {
+  place-items: initial;
+  width: 100%;
+  margin: 0 auto;
+}
 
-  .grid-container img{
-    margin: 0;
-    width: 100%;
-    max-width: 250px;
-    min-width: 350px;
-  }
+.grid-container img{
+  margin: 0;
+  width: 100%;
+  max-width: 250px;
+  min-width: 350px;
+}
 
-  /*Css for produktside.html*/
+/*Css for produktside.html*/
 
-  .historikk{           /*Denne er også i katalog.html*/
-    display: flex;
-    text-align: center;
-    justify-content: left;
-    list-style: none;
-    text-decoration-line: none;
-    font-size: 25px;
-    gap: 20px;
-    width: 100%;
-    padding: 0.5rem;
-  }
+.historikk{           /*Denne er også i katalog.html*/
+  display: flex;
+  text-align: center;
+  justify-content: left;
+  list-style: none;
+  text-decoration-line: none;  /*Nettside: W3schools, tittel: CSS text-decoration-line Property*/
+  font-size: 15px;
+  gap: 20px;
+  width: 100%;
+  padding: 0.5rem;
+}
 
-  .home{
-    text-decoration-line: none;
-    color: black;
-    font-weight: lighter;
-  }
+.home{
+  text-decoration-line: none;
+  color: black;
+  font-weight: lighter;
+}
 
-  .men{
-    text-decoration-line: none;
-    color: black;
-    font-weight: lighter;
-  }
+.men{
+  text-decoration-line: none;
+  color: black;
+  font-weight: lighter;
+}
 
-  .road-running{
-    text-decoration-line: none;
-    color: black;
-    font-weight: bold;
-  }
+.road-running{
+  text-decoration-line: none;
+  color: black;
+  font-weight: bold;
+}
 
-  .road-running-1{
-    text-decoration-line: none;
-    color: black;
-    font-weight: lighter;
-  }
+.road-running-1{
+  text-decoration-line: none;
+  color: black;
+  font-weight: lighter;
+}
 
-  .ironman{
-    text-decoration-line: none;
-    color: black;
-    font-weight: bold;
-  }
+.ironman{
+  text-decoration-line: none;
+  color: black;
+  font-weight: bold;
+}
 
-  #ironman-mach{
-    margin: 0;
-    padding: 1rem;
+main h2{
+  padding: 0.5rem;
+  width: 100%;
+}
 
-  }
+main h3{
+  padding: 0.5rem;
+  width: 100%;
+}
 
-  #ironman-mach img{
-    width: 100%;
-    margin: 0;
-    padding: 1rem;
-  }
+#ironman-mach{
+  margin: 0;
+  padding: 1rem;
+}
+
+#ironman-mach img{
+  width: 100%;
+  margin: 0;
+  padding: 1rem;
+}
   
-  #produkt-bilder{
-    display: flex;
-    place-items:initial;
-    justify-content: center;
-    width: 100%;
-    margin: 0 auto;
+#produkt-bilder{
+  display: flex;
+  place-items:initial;
+  justify-content: center;
+  width: 100%;
+  margin: 0 auto;
+}
+
+#produkt-bilder img{
+  width: 100%;
+  margin: 0;
+  padding: 0.5rem;
   }
 
-  #produkt-bilder img{
-    width: 100%;
-    margin: 0;
-    padding: 0.5rem;
+.størrelsesguide{ 
+  display: flex;  
+  text-align: center; 
+}
+
+.størrelse{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  width: 100%;
   }
 
-  .størrelsesguide{
-    display: flex;
-    place-items: initial;
-    justify-content: center;
-    align-items: center;
-    gap: 70px;
-  }
-
-  .størrelse{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
-    width: 100%;
-  }
-
-.størrelse-1 article{
+  .størrelse-1 article{
   background-color: rgb(165, 165, 165);
   color: rgb(0, 0, 0);
   margin: 40px 40px;
-  padding: 0.5rem 1rem 0.5rem 1rem;
-  border-radius: 8px;
+  padding: 0.2rem 1rem 0.2rem 1rem;
+  border-radius: 8px;  /*Nettside: W3schools, tittel: CSS border-radius Property*/
 }
 
 .størrelse-1 article:hover{
@@ -242,9 +239,8 @@ footer section{
   background-color: rgb(165, 165, 165);
   color: rgb(0, 0, 0);
   margin: 40px 40px;
-  padding: 0.5rem 1rem 0.5rem 1rem;
+  padding: 0.2rem 1rem 0.2rem 1rem;
   border-radius: 8px;
-  
 }
 
 .størrelse-2 article:hover{
@@ -261,9 +257,8 @@ footer section{
   background-color: rgb(165, 165, 165);
   color: rgb(0, 0, 0);
   margin: 40px 40px;
-  padding: 0.5rem 1rem 0.5rem 1rem;
+  padding: 0.2rem 1rem 0.2rem 1rem;
   border-radius: 8px;
-  
 }
 
 .størrelse-3 article:hover{
@@ -276,122 +271,129 @@ footer section{
   font-size: 25px;
 }
 
-  .handlekurv{
-    display: inline;
-    align-items: center;
-    justify-content: center;
-    text-decoration-line: none;
-    background-color: #171717;
-    color: white;
-    font-size: 30px;
-    padding: 1rem;
-    width: 100%;
-    margin: 0;
-    border-radius: 4px;
-  }
+.handlekurv{
+  display: inline;
+  align-items: center;
+  justify-content: center;
+  text-decoration-line: none;
+  background-color: #171717;
+  color: white;
+  font-size: 30px;
+  padding: 1rem;
+  width: 100%;
+  margin: 0;
+  border-radius: 4px;
+}
 
-  .handlekurv:hover{
-    background-color: rgb(212, 211, 211);
-    color:black
-  }
+.handlekurv:hover{
+  background-color: rgb(212, 211, 211);
+  color:black
+}
 
-  /*Css for katalog side*/
 
-  .tema-tittel{
-    margin: 0;
-    width: 100%;
-    padding: 0.5rem;
-  }
+/*Css for katalog side*/
 
-  .knapper{
-    display: flex;
-    justify-content: right;
-    align-items: right;
-    gap: 30px;
-    width: 100%;
-    padding: 1rem;
-  }
+.tema-tittel{
+  margin: 0;
+  width: 100%;
+  padding: 0.5rem;
+}
 
-  .filter-knapp{
-    background-color: black;
-    color: white;
-    padding: 0.5rem 1rem 0.5rem 1rem;
-    font-size: 20px;
-    text-decoration-line: none;
-    border-radius: 8px;
-  }
+.knapper{
+  display: flex;
+  justify-content: right;
+  align-items: right;
+  gap: 30px;
+  width: 100%;
+  padding: 1rem;
+}
 
-  .filter-knapp:hover{
-    background-color: #878686;
-    color:rgb(58, 58, 58);
-  }
+.filter-knapp{
+  background-color: black;
+  color: white;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  font-size: 20px;
+  text-decoration-line: none;
+  border-radius: 8px;
+}
 
-  .sort-knapp{
-    background-color: black;
-    color: white;
-    padding: 0.5rem 1rem 0.5rem 1rem;
-    font-size: 20px;
-    text-decoration-line: none;
-    border-radius: 8px;
-  }
+.filter-knapp:hover{
+  background-color: #878686;
+  color:rgb(58, 58, 58);
+}
 
-  .sort-knapp:hover{
-    background-color: #878686;
-    color:rgb(58, 58, 58);
-  }
+.sort-knapp{
+  background-color: black;
+  color: white;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  font-size: 20px;
+  text-decoration-line: none;
+  border-radius: 8px;
+}
 
-  footer h4{
-    font-size: 20px;
-    width: 100%;
-  }
+.sort-knapp:hover{
+  background-color: #878686;
+  color:rgb(58, 58, 58);
+}
 
-  footer p{
-    font-size: 15px;
-    font-weight: bold;
-    width: 100%;
-  }
+footer h4{
+  font-size: 20px;
+  width: 100%;
+}
 
-  .filtersystem{
-    display: grid;
-    grid-template-columns: 1fr;
-    width: 100%;
-  }
+footer p{
+  font-size: 15px;
+  font-weight: bold;
+  width: 100%;
+}
 
-  .filtersystem article{
-    display: flex;
-    width: 240px;
-    justify-content: left;
-    align-items: baseline;
-    margin: 0;
-    gap: 90px;
-    padding: 0.5rem;
-    border-bottom: solid black;
-  }
+.filter-sko{
+  width: 100%;
+}
 
-  .sko-artikkel{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    width: 100%;
-  }
+.filtersystem{
+  display: grid;
+  grid-template-columns: 1fr;   /*Nettside: W3schools, tittel: CSS Grid Container. Har også spurt OpenAi om hvordan grid-template-columns fungerer*/
+  width: 100%;
+}
+
+.filtersystem article{
+  display: flex;
+  width: 240px;
+  justify-content: left;
+  align-items: baseline;
+  margin: 0;
+  gap: 90px;
+  padding: 0.5rem;
+  border-bottom: solid black;  /*Nettside: W3schools, tittel: CSS Border-bottom Property*/
+}
+
+.sko-artikkel{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 100%;
+}
   
-  .sko-artikkel article{
-   justify-content: center;
-    place-items: initial;
-    padding: 0.5rem;
-    margin: 0 auto;
-    text-align: center;
-  }
+.sko-artikkel article{
+  justify-content: center;
+  place-items: initial;
+  padding: 0.5rem;
+  margin: 0 auto;
+  text-align: center;
+}
 
-  .sko-artikkel img{
-    margin: 0;
-    width: 100%;
-    min-width: 150px;
-    max-width: 250px;
-  }
+.sko-artikkel img{
+  margin: 0;
+  width: 100%;
+  min-width: 150px;
+  max-width: 250px;
+}
 
   
-
   @media only screen and (min-width:600px){
+
+    /*Index.html*/
+
     footer section{
       overflow: hidden;
       max-width: 1260px;
@@ -403,30 +405,50 @@ footer section{
       margin: 10px;
     }
 
+    /*Katalog.html*/
+
+    .filter-knapp{
+      visibility: hidden;  /*Nettside: W3shcools, tittel: CSS visibility Property*/ 
+    }
+
     .sko-artikkel{
-      grid-template-columns: repeat(3, 1fr);
+      grid-template-columns: repeat(2, 1fr);
       width: 100%;
     }
 
     .filter-sko{
       display: grid;
-      grid-template-columns: repeat(2, 1fr);
+      grid-template-columns: 1fr 1fr;
       column-gap: auto;
-      justify-content: center;
-      
-    }
-
-    .filtersystem article{
-      flex: left;
-      
-    }
-
-    .sko-artikkel{
-      flex: right
     }
   }
 
+  @media only screen and (min-width:1000px){
+
+    /*Produktside-html*/
+
+    .produkt-desktop{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+
+    .handlekurv{
+      float: right;
+    }
+
+    /*Katalog.html*/
+
+    .sko-artikkel{
+      grid-template-columns: repeat(3, 1fr);
+      width: 100%;
+    }
+  }
+
+
   @media only screen and (max-width:600px){
+
+  /*Katalog.html*/
+
     .filtersystem{
       display: none;
     }
