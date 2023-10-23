@@ -9,6 +9,7 @@ I tillegg til disse kildene har jeg tatt med en del fra tidligere arbeid som vi 
 Jeg har skrevet inn i koden det chatgpt har hjulpet meg med, og når jeg har brukt W3schools.
 
 Kilder til bildene som har blitt brukt på nettsiden:
+
 Hoka png logo (brukt i alle html filene):
 Hoka logo 1. Hentet fra https://www.google.com/search?client=firefox-b-d&sca_esv=568775834&q=hoka+png+logo&tbm=isch&source=lnms&sa=X&ved=2ahUKEwjPs9XW58qBAxUOh_0HHYTBDlwQ0pQJegQICxAB&biw=1280&bih=559&dpr=1.5#imgrc=bGZS3JTjDkGlGM
 Bilder i index.html:
