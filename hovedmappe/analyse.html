@@ -11,33 +11,137 @@
     <header class="trends">
         <section class="google-trends">
             <h2>Google trends</h2>
-            <img src="img/Google trends 1.png" alt="Et bildet fra google trends">
-            <img src="img/Google trends 2.png" alt="Et bildet fra google trends">
-            <img src="img/Google trends 3.png" alt="Et bildet fra google trends">
+            <img src="img/Google-trends-1.png" alt="Et bildet fra google trends">
+            <img src="img/Google-trends-2.png" alt="Et bildet fra google trends">
+            <img src="img/Google-trends-3.png" alt="Et bildet fra google trends">
             <p>Etter å ha søket opp og sammenlignet søkeord/nøkkelord har jeg funnet et par som er mer søkt på enn andre. Blant annet var søkeordene som sko og hoka naturligvis populære søk. Men i tillegg til disse er også joggesko og løpesko veldig populære søk. På bildene kan vi se at de litt mindre populære søkene er treningssko og tursko. Jeg testet nøkkelordene litt om hverandre, for å se hva som kom høyt og hva som kom høyt og lavt på skalaen. </p>
             <p>Nøkkelordene jeg har valgt å fokusere mest på ut ifra google trends er sko, hoka, joggesko og løpesko, siden disse slo ut mest på skalaen. Både på de siste 7 dagene, og over tid. Disse virker som de er populære søk gjennom tidene. Og de slår an bra geografisk flere steder i Norge.</p>
         </section>
     </header>
 
     <main>
+        <h2>SEO</h2>
         <section>
-            <h2>SEO</h2>
-            <article>
-                <h3>Lighthouse</h3>
-            </article>
-            <article>
+            <h3>Lighthouse</h3>
+            <section>
+                <h4>For mobil</h4>
+                <article>
+                    <h5>Index.html</h5>
+                    <img src="img/mobil-lighthouse-1.png" alt="Statestikk fra lighthouse mobil">
+                    <img src="img/mobil-lighthouse-2.png" alt="Statestikk fra lighthouse mobil">
+                    <p>På index.html for mobil scorte jeg ganske bra på alt, men det var noe på SEO som den ikke var helt fornøyd med. Det var at siden ikke hadde noe metadata. </p>
+                </article>
+                <article>
+                    <h5>Produkt.html</h5>
+                    <img src="img/mobil-lighthouse-3.png" alt="Statestikk fra lighthouse mobil">
+                    <img src="img/mobil-lighthouse-4.png" alt="Statestikk fra lighthouse mobil">
+                    <p>På produktsiden var det egt helt likt som på index siden. Den hadde ingen metadata her heller så den var ikke helt fornøyd. </p>
+                </article>
+                <article>
+                    <h5>Katalog.html</h5>
+                    <img src="img/mobil-lighthouse-5.png" alt="Statestikk fra lighthouse mobil">
+                    <img src="img/mobil-lighthouse-6.png" alt="Statestikk fra lighthouse mobil">
+                    <img src="img/mobil-lighthouse-7.png" alt="Statestikk fra lighthouse mobil">
+                    <p> På SEO var det samme problemet med metadata som på de andre sidene, men på katatlog siden var den heller ikke fullt fornøyd med acessbility. Her sier den at det er et lite problem med headingen som kan bli bedre.</p>
+                </article>
+                    <h4>For desktop</h4>
+                <article>
+                   <h5>Index.html</h5> 
+                   <img src="img/desktop-lighthouse-1.png" alt="Statestikk for lighthouse desktop">
+                   <img src="img/desktop-lighthouse-2.png" alt="Statestikk for lighthouse desktop">
+                   <p>På desktop var lighthouse heller ikke helt fornøyd med SEO. Det var det samme problemet som på mobil, og det var ikke overraskende. Siden mangla metadata.</p>
+                </article>
+                <article>
+                    <h5>Produkt.html</h5>
+                    <img src="img/desktop-lighthouse-3.png" alt="Statestikk for lighthouse desktop">
+                    <img src="img/desktop-lighthouse-4.png" alt="Statestikk for lighthouse desktop">
+                    <p>På produktsiden ville den også ha metadata, eller var den fornøyd.</p>
+                </article>
+                <article>
+                    <h5>Katalog-html</h5>
+                    <img src="img/desktop-lighthouse-5.png" alt="Statestikk for lighthouse desktop">
+                    <img src="img/desktop-lighthouse-6.png" alt="Statestikk for lighthouse desktop">
+                    <img src="img/desktop-lighthouse-7.png" alt="Statestikk for lighthouse desktop">
+                    <p>Metadata var selvfølegelig et problem her også, men i tillegg var den heller ikke fornøyd med noe i headingen. Dette er det samme problemet som på mobil.</p>
+                </article>
+            </section>
+
+            <section>
                 <h3>Chatgpt</h3>
-            </article>
+                <p>På hver side på nettsiden spurte jeg chatGPT om: Kan du vurdere koden ut ifra feil med SEO og UU? Kan du gi spesifikke løsninger.</p>
+                <article>
+                    <h5>Index.html</h5>
+                    <img src="img/seo-chatgpt-1.png" alt="Chatgpt om SEO for index siden">
+                    <p>Chat GPT nevnte blant annet at jeg burde ha metadata i koden min. Da nevner den på meta description. I tillegg mener den at lenkene mine ikke er tydelige nok, og vil ha de mer beskrivende (new,men, women, kids). Den påpeker også at jeg har alternativ tekst for bilder og sier jeg skal fortsette med dette. Til slutt sier den også at jeg har gode overskrifter og bilder, og at jeg skal fortsette med dette videre også.</p>
+                </article>
+                <article>
+                    <h5>Produkt.html</h5>
+                    <img src="img/seo-chatgpt-2.png" alt="Chatgpt om SEO for produkt siden">
+                    <p>På SEO sier den jeg burde ha en bedre beskrivende title på produktsiden. Slik at den blir mer beskrivende til hva innholdet på siden handler om. I tillegg nevner den også at jeg trenger en meta decription på denne siden. Det siste den sier er at jeg har alternativ tekst på bildene mine og det skal jeg fortsette med her også.</p>
+                </article>
+                <article>
+                    <h5>Katalog.html</h5>
+                    <img src="img/seo-chatgpt-3.png" alt="Chatgpt om SEO for katalog siden">
+                    <p> I katalogen nevner den også på at jeg burde ha en bedre title til siden min, og en meta description. I tillegg nevnte den også på alternativ tekst til bilder.</p>
+                </article>
+            </section> 
         </section>
+
+        <h2>UU</h2>
         <section>
-            <h2>UU</h2>
-            <article>
+            <section>
                 <h3>Webaim</h3>
-            </article>
-            <article>
+                <article>
+                    <h5>Index.html</h5>
+                    <img src="img/webaim-1.png" alt="Analyse fra Webaim">
+                    <p>På webaim i index siden var den veldig fornøyd med UU. Ingen feil eller advarsler kom opp. Det var veldig bra.</p>
+                </article>
+                <article>
+                    <h5>Produkt.html</h5>
+                    <img src="img/webaim-2.png" alt="Analyse fra Webaim">
+                    <p>I produkt siden var det ingen feil med UU, men det var to advarsler. Den ene var at den advarte mot at det ikke var noe level på headingen. Det andre var at den ene linken følger til den samme URL'en.</p>
+                </article>
+                <article>
+                    <h5>Katalog.html</h5>
+                    <img src="img/webaim-3.png" alt="Analyse fra Webaim">
+                    <img src="img/webaim-4.png" alt="Analyse fra Webaim">
+                    <p>På katalog siden var det tre advarsler, men ingen feil her heller. Den første advarselen var at det mangla level med headingen her også, slik som i produktsiden. I tillegg var det også feil med den samme linken. Den siste advarselen var at det var hoppet over en heading overskrift (h4).</p>
+                </article>
+            </section>
+            <section>
                 <h3>Chatgpt</h3>
-            </article>
+                <article>
+                    <h5>Index.html</h5>
+                    <img src="img/uu-chatgpt-1.png" alt="Chatgpt om UU for index siden">
+                    <p> På UU hadde den litt mer den ønsket forbedring på. Blant annet sa den at den ønsker en figcaption som jeg skriver mer kontekst til bildene mine. Den sier det er viktig å passe på farger og kontraster på nettsiden, slik at alle kan lese det, til og med de med nedsatt syn. I tillegg sier den responsivt design er viktig for god UU. Også nevner den på litt på tilgjengelig navigasjon, videofiler, skriftstørrelser og struktur. Den sier mye jeg bare må fortsette med.</p>
+                </article>
+                <article>
+                    <h5>Produkt.html</h5>
+                    <img src="img/uu-chatgpt-2.png" alt="Chatgpt om UU for produkt siden">
+                    <p> I UU sier den først at jeg kan strukturere siden bedre ved å istedenfor å bruke div kan jeg bruke nav i hovedmenyen. Den andre tingen den skriver er skalering av tekst, og da sier den at jeg heller bør skrive "em" eller "rem" enn piksler når jeg skriver css. Også nevner den på at jeg må sjekke siden min for tastatur navigasjon. Slik at nettsiden min kan bare brukes gjennom tastaturet. Til slutt nevner den også på fargekontrast her og test for tilgjenglighetsproblemer på nettsiden.</p>
+                </article>
+                <article>
+                    <h5>Katalog.html</h5>
+                    <img src="img/uu-chatgpt-3.png" alt="Chatgpt om UU for katalog siden">
+                    <p> I UU nevner den på mye av det samme som i index og produkt siden. Struktur i dokumentet med section, article og nav. Navigasjon skal være bra og kontrast mellom farger. Mulig for at nettstedet skal kunne styres med bare tastaturet. Den sier validering av koden er viktig.</p>
+                </article>
+            
+            </section>
         </section>
+        <table>
+            <tr>
+                <th>Lighthouse</th>
+                <th>Webaim</th>
+                <th>ChatGPT</th>
+            </tr>
+            <tr>
+                <td>Likt</td>
+            </tr>
+            <tr>
+                <td>Ulikt</td>
+            </tr>
+        </table>
+
     </main>
 </body>
 </html>
