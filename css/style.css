@@ -486,6 +486,14 @@ footer p{
 
   /*CSS for analyse.html*/
 
+  table{
+    width: 100%;
+    font-size: 0.7rem;
+    padding: 1rem;
+    margin: 0;
+    text-align: center;
+  }
   
-
- 
+  table, th, td{
+    border: 1px solid black;
+  }
