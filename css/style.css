@@ -337,6 +337,11 @@ main h3{
   color:rgb(58, 58, 58);
 }
 
+footer h4{
+  font-size: 20px;
+  width: 100%;
+}
+
 footer h5{
   font-size: 20px;
   width: 100%;
