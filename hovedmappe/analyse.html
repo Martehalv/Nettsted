@@ -8,7 +8,8 @@
     <title>Analyse</title>
 </head>
 <body>
-    <h1>Oblig 4</h1>
+    <h1 class="overskrift">Oblig 4</h1>
+    <a href="./hovedmappe/index.html">Tilbake til index.html</a>
     <header class="trends">
         <section class="google-trends">
             <h2>Google trends</h2>
@@ -20,7 +21,7 @@
         </section>
     </header>
 
-    <main>
+    <main class="innhold">
         <h2>SEO</h2>
         <section>
             <h3>Lighthouse</h3>
@@ -59,7 +60,7 @@
                     <h5>Produkt.html</h5>
                     <img src="img/desktop-lighthouse-3.png" alt="Statestikk for lighthouse desktop">
                     <img src="img/desktop-lighthouse-4.png" alt="Statestikk for lighthouse desktop">
-                    <p>På produktsiden ville den også ha metadata, eller var den fornøyd.</p>
+                    <p>På produktsiden ville den også ha metadata, ellers var den fornøyd.</p>
                 </li>
                 <li>
                     <h5>Katalog-html</h5>
@@ -83,7 +84,7 @@
                 <li>
                     <h5>Produkt.html</h5>
                     <img src="img/seo-chatgpt-2.png" alt="Chatgpt om SEO for produkt siden">
-                    <p>På SEO sier den jeg burde ha en bedre beskrivende title på produktsiden. Slik at den blir mer beskrivende til hva innholdet på siden handler om. I tillegg nevner den også at jeg trenger en meta decription på denne siden. Det siste den sier er at jeg har alternativ tekst på bildene mine og det skal jeg fortsette med her også.</p>
+                    <p>På SEO sier den jeg burde ha en bedre beskrivende title på produktsiden. Slik at den blir mer beskrivende til hva innholdet på siden handler om. I tillegg nevner den også at jeg trenger en meta decription på denne siden. Det siste den sier er at jeg har alternativ tekst på bildene mine og at jeg skal fortsette med det her også.</p>
                 </li>
                 <li>
                     <h5>Katalog.html</h5>
@@ -228,21 +229,34 @@
                 <p>Når jeg skulle legge til attributter på nettstedet mitt skrev jeg inn aria-label på en del i koden min. Dette var for at skjermleseren skulle lese opp teksten min, og gi forklare hva ting var på siden. For eksempel brukte jeg det på filter systemet mitt på katalog siden og for størrelsene på produktsiden. Dette gjorde så den sa det som sto i filter systemet. På produktsiden sier skjermleseren størrelser på størrelsene, slik at brukeren skjønner mer. Jeg prøvde også å fikse aria atributter på ikonene og headingene, men den ville fortsatt ikke lese opp.</p>
             </article>
         </section>
+        <section>
+            <section>
+                <h3>Mikrodata</h3>
+                <img src="img/google-rike-resultater.png" alt="Restultater for mikrodata på google rike resultater">
+                <p>Når jeg skulle legge til mikrodata la jeg til brødsmuleliste (itemListElement), selger informasjon (aggregateRating), pris informasjon (offer) og informasjon for produktet (products). Jeg la til de elementene som rike resultater anbefalet for å gyldige elementer på alt.</p>
+            </section>
+            <section>
+                <h3>Metadata og SOME</h3>
+                <p>På siste trinn lagde jeg enda nyere og bedre beskrivelser til titlene enn jeg forbedret i trinn 2. Nå ble de mer utfyllende og beskriver sidene mye mer. Generell metadata hadde jeg allerede lagt inn fra trinn 2, men jeg la til ny metadata for sosiale medier. Dette gjorde jeg på alle sidene. </p>
+        </section>
     </main>
 
     <footer>
-        <section>
-            <aritcle>
-                <h3>Mikrodata</h3>
-                <p>Når jeg skulle legge til mikrodata la jeg til brødsmuleliste (itemListElement), selger informasjon (aggregateRating), pris informasjon (offer) og informasjon for produktet (products). Jeg la til de elementene som rike resultater anbefalet for å gyldige elementer på alt.</p>
-                <img src="img/google-rike-resultater.png" alt="Restultater for mikrodata på google rike resultater">
-            </aritcle>
-        </section>
-
-        <section>
-            
-        </section>
-        
+     <!--
+     Kilder:
+     Tidligere arbeid fra timene
+     Lighthouse
+     https://chat.openai.com/   Brukt for å spørre om spesifikke løsninger til SEO og UU.
+     aria label. (u.d.). Hentet fra MDN Web Docs: https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-label
+     HTML Tables. (u.d.). Hentet fra W3schools: https://www.w3schools.com/html/html_tables.asp
+     Microdata. (u.d.). Hentet fra MDN Web Docs: https://developer.mozilla.org/en-US/docs/Web/HTML/Microdata
+     Schema.org Product. (u.d.). Hentet fra Schema.org: https://schema.org/Product
+     Social Media Meta Tags: A Complete Guide. (u.d.). Hentet fra kontentino: https://www.kontentino.com/blog/social-media-meta-tags-a-complete-guide/
+     Test for rike resultater. (u.d.). Hentet fra google.com: https://search.google.com/test/rich-results?hl=nn
+     The Open Graph Protocol. (u.d.). Hentet fra ogp.me: https://ogp.me/
+     WAVE Web Accessibility Evaluation Tool. (u.d.). Hentet fra wave webaim: https://wave.webaim.org/
+    -->
     </footer>
 </body>
 </html>
+

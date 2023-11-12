@@ -486,6 +486,32 @@ footer p{
 
   /*CSS for analyse.html*/
 
+  .overskrift{
+    text-align: center;
+  }
+
+  .trends{
+    background-color: white;
+    text-align: center;
+    margin: 0;
+    padding: 1rem;
+  }
+
+  .trends img{
+    width: 30%;
+  }
+
+  .innhold{
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .innhold img{
+    width: 20%;
+  }
+
   table{
     width: 100%;
     font-size: 0.7rem;
@@ -497,3 +523,10 @@ footer p{
   table, th, td{
     border: 1px solid black;
   }
+
+  
+
+  
+
+ 
+
