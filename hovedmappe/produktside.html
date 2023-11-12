@@ -29,22 +29,49 @@
     
     <section>
         <nav>
-            <ul class="historikk" aria-label="historikk">
-                 <li><a href="./hovedmappe/index.html" class="home">Home /</a></li>
-                 <li><a href="#" class="men">Men /</a></li>
-                 <li><a href="./hovedmappe/katalog.html" class="road-running-1">Road running /</a></li>
-                 <li><a href="#" class="ironman">Ironman Mach X</a></li>
+            <ul itemscope itemtype="https://schema.org/BreadcrumbList" class="historikk" aria-label="historikk">
+                 <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                    <a itemprop="item" href="./hovedmappe/index.html" class="home">
+                    <span itemprop="name">Home /</span>
+                    </a>
+                    <meta itemprop="position" content="1">
+                </li>
+                 <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                    <a  itemprop="item" href="#" class="men">
+                    <span itemprop="name">Men /</span>
+                    </a>
+                    <meta itemprop="position" content="2">
+                </li>
+                 <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                    <a  itemprop="item" href="./hovedmappe/katalog.html" class="road-running-1" >
+                    <span itemprop="name">Road running /</span>
+                    </a>
+                    <meta itemprop="position" content="3">
+                </li>
+                 <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                    <a  itemprop="item" href="#" class="ironman">
+                        <span itemprop="name">Home /</span>
+                        </a>
+                    <meta itemprop="position" content="4">
+                </li>
             </ul>
         </nav>
     </section>
 
-    <main aria-label="ironman mach x">
-         <h1>Ironman Mach X</h1>
-         <h2>Kr 2 600</h2>
+    <main aria-label="ironman mach x" itemscope itemtype="https://schema.org/Product">
+         <h1 itemprop="name">Ironman Mach X</h1>
+         <div itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
+            <meta itemprop="reviewCount" content="100">
+            <meta itemprop="ratingValue" content="4.8">
+        </div>
+        <div itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+            <meta itemprop="priceCurrency" content="NOK">
+         <h2 itemprop="price" content="2600">Kr 2 600</h2>
+         </div>
         <section class="produkt-desktop">
             <section class="produkt-artikkel">
                 <div id="ironman-mach">
-                    <img src="img/ironman-mach-x.jpg" alt="Bildet av hokas ironman mach x skoene">  <!--Bildet hentet fra: https://dms.deckers.com/hoka/image/upload/f_auto,q_auto,dpr_auto/b_rgb:f7f7f9/w_966/v1694693211/EMEA/1154515-ABSSP_1.png?_s=RAABAB0-->
+                    <img src="img/ironman-mach-x.jpg" alt="Bildet av hokas ironman mach x skoene" itemprop="image">  <!--Bildet hentet fra: https://dms.deckers.com/hoka/image/upload/f_auto,q_auto,dpr_auto/b_rgb:f7f7f9/w_966/v1694693211/EMEA/1154515-ABSSP_1.png?_s=RAABAB0-->
                 </div>
                 <div id="produkt-bilder">
                     <img src="img/1154515-ABSSP_2.webp" alt="Ironman mach x skoene fra ovenfra">  <!--Bildet hentet fra: https://dms.deckers.com/hoka/image/upload/f_auto,q_auto,dpr_auto/b_rgb:f7f7f9/w_966/v1694693214/EMEA/1154515-ABSSP_2.png?_s=RAABAB0-->
